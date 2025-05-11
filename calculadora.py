@@ -3,6 +3,7 @@ entrada = int(input("Bienvenido porfavor seleccione una opcion "))
 
 while entrada != 0:
     entrada = int(input("Bienvenido porfavor seleccione una opcion "))
+
     if entrada == 1:
         entrada2 = int(input("Desea seguir sumando (si 1 : no 0): "))
         while entrada2 !=0: 
@@ -12,9 +13,19 @@ while entrada != 0:
             suma = a + b
             print("Resultado de la suma: " , suma)
             entrada2 = int(input("Desea seguir sumando (si 1 : no 0): "))
+
     if entrada == 2:
-        print("2")
+        entrada2 = int(input("Desea seguir restando (si 1 : no 0): "))
+        while entrada2 !=0: 
+            a = int(input("ingrese el numero mayor: "))
+            b = int(input("ingrese el numero menor: "))
+
+            resta = a - b
+            print("Resultado de la suma: " , resta)
+            entrada2 = int(input("Desea seguir restando (si 1 : no 0): "))
+
     if entrada == 3:
         print("3")
+
     if entrada == 4:
         print("4")
