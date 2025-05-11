@@ -35,4 +35,11 @@ while entrada != 0:
             entrada2 = int(input("Desea seguir multiplicando (si 1 : no 0): "))
 
     if entrada == 4:
-        print("4")
+        entrada2 = int(input("Desea seguir dividiendo (si 1 : no 0): "))
+        while entrada2 !=0: 
+            a = int(input("ingrese el primer numero : "))
+            b = int(input("ingrese el segundo numero : "))
+
+            divicion = a / b
+            print("Resultado de la divicion: " , divicion)
+            entrada2 = int(input("Desea seguir dividiendo (si 1 : no 0): "))
