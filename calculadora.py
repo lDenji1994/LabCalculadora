@@ -21,11 +21,18 @@ while entrada != 0:
             b = int(input("ingrese el numero menor: "))
 
             resta = a - b
-            print("Resultado de la suma: " , resta)
+            print("Resultado de la resta: " , resta)
             entrada2 = int(input("Desea seguir restando (si 1 : no 0): "))
 
     if entrada == 3:
-        print("3")
+        entrada2 = int(input("Desea seguir multiplicando (si 1 : no 0): "))
+        while entrada2 !=0: 
+            a = int(input("ingrese el primer numero : "))
+            b = int(input("ingrese el segundo numero : "))
+
+            multiplicacion = a * b
+            print("Resultado de la multiplicacion: " , multiplicacion)
+            entrada2 = int(input("Desea seguir multiplicando (si 1 : no 0): "))
 
     if entrada == 4:
         print("4")
