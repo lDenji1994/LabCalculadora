@@ -1,4 +1,4 @@
-print(" 1- Suma. \n 2- Resta. \n 3- Multiplicacion. \n 4 - Divicion.")
+print(" 1- Suma. \n 2- Resta. \n 3- Multiplicacion. \n 4 - Divicion. \n 0 - salir.")
 entrada = int(input("Bienvenido porfavor seleccione una opcion "))
 
 while entrada != 0:
@@ -43,3 +43,5 @@ while entrada != 0:
             divicion = a / b
             print("Resultado de la divicion: " , divicion)
             entrada2 = int(input("Desea seguir dividiendo (si 1 : no 0): "))
+            
+print("Gracias tenga buen dia :)")
